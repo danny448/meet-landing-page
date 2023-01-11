@@ -1,0 +1,261 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Red Hat Display";
+  background-color: white;
+}
+
+.head{
+  display: flex;
+  justify-content:center ;
+}
+
+.Tablet-Image{
+  display: none;
+}
+
+.meetlogo {
+  margin-top: 80px;
+  margin-bottom: 62px;
+  text-align: center;
+}
+
+  .hero-section{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    height: 358px;
+    margin-bottom: 110px;
+    flex-wrap: wrap;
+  }
+
+
+
+
+  .headline-main {
+    color: #28283D;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+  }
+  
+  
+  .main-paragraph {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+  padding: 20px;
+  margin: 20px;
+    text-align: center;
+  
+    color: #87879D;
+  }
+  
+  .button-one {
+    filter: drop-shadow(0px 8px 4px rgba(255, 255, 255, 0.25));
+    width: 193px;
+    height: 58px;
+    background: #4D96A9;
+    border-radius: 29px;
+    color: white;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 26px;
+    margin-right: 12px;
+    border: none;
+  
+  }
+  
+  
+  
+  
+  
+  
+  .version {
+    color: #8FE3F9;
+  }
+  
+  .what-btn {
+    width: 139px;
+    height: 58px;
+    background: #855FB1;
+    border: none;
+    border-radius: 29px;
+    color: white;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+
+  .second-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 540px;
+    height: auto;
+  }
+
+  
+.divider{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+
+.products-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 20px;
+  height: 242px;
+}
+
+
+.product-img{
+  border-radius: 12%;
+  width: 255px;
+  height: 242px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+
+
+
+/* TABLET VERSION */
+
+
+ @media (max-width: 768px) {
+
+  body{
+    margin: 0;
+    padding: 0;
+  }
+
+.Desktop-Hero-Image{
+  display: none;
+}
+
+.Tablet-Image{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Tablet-Image{
+  width: 100%;
+  height: auto;
+  border: none;
+}
+
+.divider{
+  margin-top: 300px;
+}
+
+}
+
+.purpose-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+  margin-top: 100px;
+  width: 540px;
+  height: 240px;
+  text-align: center;
+  
+  margin-bottom: 72px;
+
+}
+
+/* MOBILE VERSION */
+
+@media (max-width: 567px){
+  body{
+    margin: 0;
+    padding: 0;
+  }
+
+.Desktop-Hero-Image{
+  display: none;
+}
+
+.Tablet-Image{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Tablet-Image{
+  width: 100%;
+  height: auto;
+  border: none;
+}
+
+.headline-main {
+  color: #28283D;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+}
+
+.main-paragraph {
+  font-style: normal;
+ 
+  font-size: 18px;
+  line-height: 26px;
+ font-weight: 400;
+  text-align: center;
+margin: 0;
+  color: #87879D;
+}
+
+.divider{
+  margin-top: 230px;
+}
+
+
+.buttons{
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  align-items: center;
+}
+
+
+.products-section{
+
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  justify-content: center;
+  
+  
+ 
+  
+}
+
+
+.product-img{
+
+  border-radius: 10%;
+  width: 165px;
+  height: auto;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  /* padding: 0;
+  margin: 0; */
+
+  
+}
+
+
+
+
+
+}
